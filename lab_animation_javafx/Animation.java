@@ -48,6 +48,10 @@ public class Animation extends Application {
         Image orc_northwest = createImage("/orc_animation/orc_forward_northwest.png");
         Image orc_northeast = createImage("/orc_animation/orc_forward_northeast.png");
         Image orc_southwest = createImage("/orc_animation/orc_forward_southwest.png");
+        Image orc_north = createImage("/orc_animation/orc_forward_north.png");
+        Image orc_south = createImage("/orc_animation/orc_forward_south.png");
+        Image orc_west = createImage("/orc_animation/orc_forward_west.png");
+        Image orc_east = createImage("/orc_animation/orc_forward_east.png");
         final long startNanoTime = System.nanoTime();
 
         new AnimationTimer() {
